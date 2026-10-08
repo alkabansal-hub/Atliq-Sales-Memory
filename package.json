@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data": "node scripts/build-data.ts",
+    "analyze": "node --env-file-if-exists=.env.local scripts/analyze.ts",
+    "eval": "node scripts/eval.ts",
+    "test-cases": "node scripts/test-cases.ts"
   },
   "dependencies": {
     "next": "16.4.0",
@@ -20,5 +24,6 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
     "typescript": "^5"
-  }
+  },
+  "type": "module"
 }

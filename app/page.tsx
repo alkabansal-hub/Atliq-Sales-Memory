@@ -1,69 +1,32 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { aiRan, analysis, items, leadById, TODAY } from "@/lib/data.ts";
+import { rankReason } from "@/lib/rules.ts";
+import { daysBetween, fmt } from "@/lib/dates.ts";
+import TodayList, { type ClientGroup } from "./components/today-list";
 
-export default function Home() {
+const SELLERS = ["Bhavin", "Dhaval", "Karandeep", "Jay"];
+
+export default function TodayPage() {
+  // One row per client; items are already ranked, so the first item of each client leads.
+  const groups = new Map<string, ClientGroup>();
+  for (const i of items) {
+    if (i.kind === "missing_lead") continue; // these are on the CRM check tab
+    const key = i.leadId ?? i.company;
+    const owner = (i.leadId && leadById(i.leadId)?.owner) || "Unassigned";
+    if (!groups.has(key)) groups.set(key, { key, company: i.company, owner, value: i.value, items: [], rankWhy: rankReason(i, TODAY), summary: i.leadId ? analysis.accounts[i.leadId] : undefined });
+    groups.get(key)!.items.push(i);
+  }
+  const list = [...groups.values()];
+  const waiting = items.filter((i) => i.kind === "client_waiting").length;
+  const overdue = items.filter((i) => i.kind === "commitment" && i.tier < 3 && i.due && daysBetween(i.due, TODAY) > 0).length;
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>
-            To get started, edit the{" "}
-            <code className={styles.code}>page.tsx</code> file.
-          </h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <>
+      <h1>Pending follow-ups</h1>
+      <p className="lead">
+        {fmt(TODAY)} · <b>{waiting}</b> clients waiting for a reply · <b>{overdue}</b> promises overdue. Most urgent first: overdue or waiting → bigger deal → longer silence.
+      </p>
+      {!aiRan() && <div className="notice">AI analysis not run yet: showing rule-based reminders only.</div>}
+      <TodayList groups={list} owners={SELLERS.concat("Unassigned")} today={TODAY} />
+    </>
   );
 }

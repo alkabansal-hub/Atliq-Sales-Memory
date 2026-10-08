@@ -1,0 +1,2168 @@
+{
+  "generatedAt": "2026-10-07T17:43:35.284Z",
+  "model": "qwen/qwen3.8-27b",
+  "docs": {
+    "2025-09-30_quantia_lost_deal": {
+      "summary": "Quantia Analytics has confirmed they will not proceed with the AI/ML Solutions project due to an ongoing acquisition, but have explicitly requested to be contacted again in Q2 2026.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Lost",
+          "quote": "We've decided not to proceed right now",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Check back with client in Q2 2026",
+          "quote": "Please do check back with us around then. I mean that.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Check back with James Whitfield regarding the AI/ML Solutions project",
+          "due": null,
+          "dueText": "Q2 2026",
+          "quote": "Please do check back with us around then. I mean that.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "revisit",
+          "detail": "Client paused the deal due to an ongoing acquisition and explicitly requested to be contacted again in Q2 2026.",
+          "date": null,
+          "quote": "We're mid-acquisition and nothing new gets signed until that closes, likely Q2 2026.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-01-15_vertex_ooo_stall": {
+      "summary": "The deal is paused because the client is out of the office until February 2026. Jay has agreed to reconnect in February to discuss the mobile app approach.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Reconnect in February",
+          "quote": "will reconnect in February",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Reconnect with P. Naidu",
+          "due": null,
+          "dueText": "in February",
+          "quote": "will reconnect in February",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "revisit",
+          "detail": "Client is out of office until 2026-02-02, pausing the conversation until February.",
+          "date": "2026-02-02",
+          "quote": "I am out of the office until 2 February 2026",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-02-05_steelcore_pricing_objection": {
+      "summary": "SteelCore Industries is objecting to the proposed 14-16k USD estimate for Power BI dashboards, citing a cheaper local freelancer quote. Jay has responded by highlighting the value of data integration and offered a call to clarify the scope.",
+      "crmUpdates": [
+        {
+          "field": "est_value_usd",
+          "value": "15000",
+          "quote": "indicative estimate of 14–16k depending on data source complexity",
+          "confidence": "medium"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Get on a call and walk through exactly what's included",
+          "due": null,
+          "dueText": "Happy to get on a call",
+          "quote": "Happy to get on a call and walk through exactly what's included.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "competitor",
+          "detail": "Client is comparing AtliQ's quote with a local freelancer who quoted less than a third of the price.",
+          "date": "2026-02-10",
+          "quote": "A local freelancer has quoted us less than a third of this for \"the same dashboards\".",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "Client has raised a pricing objection, indicating the deal is at risk of being lost to a cheaper alternative.",
+          "date": "2026-02-10",
+          "quote": "frankly the number is a problem.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-03-04_apexauto_cold_outreach": {
+      "summary": "Jay has sent two cold outreach emails to Ravi Shankar at ApexAuto Parts regarding Power BI dashboards, with no response received as of the latest follow-up.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Mr. Shankar, reaching out cold — AtliQ builds Power BI dashboards and data platforms for distribution businesses.",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Jay",
+          "quote": "From: Jay <jay@atliq.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Power BI Dashboards",
+          "quote": "AtliQ builds Power BI dashboards and data platforms for distribution businesses.",
+          "confidence": "high"
+        },
+        {
+          "field": "last_contact_date",
+          "value": "2026-03-20",
+          "quote": "Date: 2026-03-20",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-04-05_smartserve_intro_call": {
+      "summary": "Intro call with SmartServe Hospitality confirmed interest in a custom web app for banquet booking and invoicing with a $25k budget, but the ops manager is skeptical due to past vendor issues and requires milestone-based payments.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "Send call recap + indicative pricing — Jay — by 8 Apr",
+          "confidence": "medium"
+        },
+        {
+          "field": "est_value_usd",
+          "value": "25000",
+          "quote": "Pooja estimated 25k budget \"if the scope is right\".",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Send call recap + indicative pricing",
+          "due": "2026-04-08",
+          "dueText": "by 8 Apr",
+          "quote": "Send call recap + indicative pricing — Jay — by 8 Apr",
+          "confidence": "high"
+        },
+        {
+          "who": "Jay",
+          "what": "Arrange reference call with a past client for Arvind",
+          "due": null,
+          "dueText": "",
+          "quote": "Reference call with a past client for Arvind — Jay",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Ops manager Arvind is skeptical due to a previous vendor disappearing mid-project and is demanding milestone-based payments.",
+          "date": "2026-04-05",
+          "quote": "Arvind sceptical — burned by a previous vendor who disappeared mid-project. Wants milestone-based payments.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-04-20_healthfirst_board_update": {
+      "summary": "HealthFirst Clinics has deferred their decision on the patient portal proposal to a board meeting on July 14, 2026. Karandeep has already sent a re-phased pricing proposal to help secure initial approval.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Awaiting board decision on July 14, 2026",
+          "quote": "the portal decision has been deferred to the next sitting, now scheduled for 14 July",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Deal is at risk of delay as the board decision has been pushed to July 14, 2026.",
+          "date": "2026-07-14",
+          "quote": "our board meeting got pushed and the portal decision has been deferred to the next sitting, now scheduled for 14 July",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-05-04_urbannest_no_response": {
+      "summary": "Jay followed up with Kunal Kapoor regarding the site-visit booking app, sharing an approach note and offering a demo.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Schedule demo",
+          "quote": "Happy to do a short demo whenever suits.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Provide a short demo of the site-visit booking app",
+          "due": null,
+          "dueText": "whenever suits",
+          "quote": "Happy to do a short demo whenever suits.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-05-10_bytebridge_competitor": {
+      "summary": "ByteBridge is facing competitor pressure from TalentGrid, which has quoted 15% lower rates. Karandeep has committed to sending case studies and a reference by Friday to justify AtliQ's value.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "RE: Augmented team proposal",
+          "confidence": "medium"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Send two case studies and a reference",
+          "due": "2026-05-15",
+          "dueText": "by Friday",
+          "quote": "I'll send both, plus a reference, by Friday.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "competitor",
+          "detail": "TalentGrid has quoted 15% below AtliQ's rates for the same three profiles.",
+          "date": "2026-05-10",
+          "quote": "TalentGrid has quoted us roughly 15% below your rates for the same three profiles.",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "Client needs to justify the price difference to their CFO, indicating the deal is at risk if value is not demonstrated.",
+          "date": "2026-05-10",
+          "quote": "I need something to justify the difference to my CFO",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-05-19_globalmart_demo": {
+      "summary": "GlobalMart demo went well with positive feedback on the vendor-portal prototype, and Neha Shah requested the proposal by the end of May.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Send proposal by end of May",
+          "quote": "Neha wants proposal by end of May",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Send proposal",
+          "due": "2026-05-31",
+          "dueText": "end of May",
+          "quote": "Neha wants proposal by end of May",
+          "confidence": "high"
+        }
+      ],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-06-03_trustline_negotiation": {
+      "summary": "The proposal for Trustline NBFC is approved by the ops head but pending CFO approval, who requires a shift from per-document to annual license pricing with ROI framing. The client has indicated to push for a decision in July following their board meeting.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Reframe proposal with annual license pricing and ROI (hours saved per loan file) for CFO; follow up after board meeting in first week of July",
+          "quote": "CFO wants ROI framing: hours saved per loan file... he wants annual license framing instead... Mohan friendly, says push in July after their board meet",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Reframe proposal with annual license pricing and ROI metrics (hours saved per loan file) for the CFO",
+          "due": null,
+          "dueText": "push in July after their board meet",
+          "quote": "CFO wants ROI framing: hours saved per loan file... he wants annual license framing instead... Mohan friendly, says push in July after their board meet",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Deal is stuck with CFO who is requesting a change in pricing model (annual license vs per-document) and ROI justification, indicating potential delay or renegotiation.",
+          "date": "2026-06-03",
+          "quote": "Mohan says proposal approved by ops head, stuck with CFO... CFO wants ROI framing: hours saved per loan file... he wants annual license framing instead",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-03_zenlytics_intro_call": {
+      "summary": "Bhavin and Maya Fernandes have scheduled an introductory call for Wednesday, June 10, 2026, to discuss Zenlytics' need for two data engineers with dbt and Snowflake experience starting in August.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Intro call on 2026-06-10 at 3pm IST",
+          "quote": "Wednesday 3pm it is. I'll send a calendar invite shortly.",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Data Engineering",
+          "quote": "We're looking for 2 data engineers with dbt + Snowflake experience",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Send a calendar invite for the intro call",
+          "due": "2026-06-05",
+          "dueText": "shortly",
+          "quote": "I'll send a calendar invite shortly.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-06-09_clearpath_budget_unfrozen": {
+      "summary": "ClearPath Insurance is re-engaging on a previously lost Data Engineering deal, confirming the budget freeze has lifted and the project is back on their Q3 roadmap.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "The freeze lifted with the new financial year and the project is back on our roadmap for Q3.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Confirm if AtliQ is still interested and if the 40k estimate still holds",
+          "due": null,
+          "dueText": "implied by the question in the email",
+          "quote": "Is AtliQ still interested, and does the 40k estimate still hold?",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "revisit",
+          "detail": "Previously lost deal due to budget freeze is being revisited as the freeze has lifted and the project is back on the roadmap for Q3.",
+          "date": "2026-06-09",
+          "quote": "The freeze lifted with the new financial year and the project is back on our roadmap for Q3.",
+          "confidence": "high"
+        },
+        {
+          "type": "competitor",
+          "detail": "Client mentions comparing AtliQ's proposal against two others, noting AtliQ's was the strongest.",
+          "date": "2026-06-09",
+          "quote": "Your proposal was the strongest of the three we saw.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-11_northwind_crosssell": {
+      "summary": "Northwind Logistics is satisfied with the live data pipeline and is now requesting Power BI dashboards after seeing a competitor's setup. Dhaval has committed to sending sample dashboard concepts next week.",
+      "crmUpdates": [
+        {
+          "field": "service_interest",
+          "value": "Power BI Dashboards",
+          "quote": "Does AtliQ also do the dashboard layer on top? Our CEO saw a competitor's Power BI setup at an industry event and now wants \"something like that\".",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Send sample dashboard concepts",
+          "quote": "Let me send you a few sample dashboard concepts next week to react to.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Send sample dashboard concepts",
+          "due": "2026-06-19",
+          "dueText": "next week",
+          "quote": "Let me send you a few sample dashboard concepts next week to react to.",
+          "confidence": "medium"
+        }
+      ],
+      "signals": [
+        {
+          "type": "cross_sell",
+          "detail": "Client wants Power BI dashboards on top of existing data pipeline",
+          "date": "2026-06-11",
+          "quote": "Does AtliQ also do the dashboard layer on top? Our CEO saw a competitor's Power BI setup at an industry event and now wants \"something like that\".",
+          "confidence": "high"
+        },
+        {
+          "type": "competitor",
+          "detail": "Client's CEO saw a competitor's Power BI setup at an industry event",
+          "date": "2026-06-11",
+          "quote": "Our CEO saw a competitor's Power BI setup at an industry event and now wants \"something like that\".",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-13_medtrack_scribble": {
+      "summary": "Rohit from MedTrack Labs is interested in lab ops dashboards and LIMS integration, and has requested an intro deck and healthcare case studies to be sent this week.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Rohit (MedTrack Labs) — lab ops dashboards? or was it LIMS integration. both?",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Power BI Dashboards",
+          "quote": "lab ops dashboards? or was it LIMS integration. both?",
+          "confidence": "medium"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Send intro deck and healthcare case studies",
+          "due": "2026-06-19",
+          "dueText": "this week",
+          "quote": "asked for our intro deck + healthcare case studies send this week",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "cross_sell",
+          "detail": "Client is interested in both lab ops dashboards and LIMS integration, indicating a potential need for Data Engineering or Custom Web App services in addition to dashboards.",
+          "date": "2026-06-13",
+          "quote": "lab ops dashboards? or was it LIMS integration. both?",
+          "confidence": "medium"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-10_sunrise_foods_reactivation": {
+      "summary": "Sunrise Foods, a past client, is inquiring about a v2 upgrade for their distributor portal and a sales dashboard, with Dhaval agreeing to schedule a call after his current travel.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Before we go to anyone else: would AtliQ want to do a v2?",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Power BI Dashboards",
+          "quote": "our CFO keeps asking if the portal data can feed into some kind of sales dashboard",
+          "confidence": "medium"
+        },
+        {
+          "field": "next_step",
+          "value": "Schedule call after Dhaval returns from travel",
+          "quote": "Travelling this week — let me set up a call when I'm back.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Set up a call with Meera Pillai",
+          "due": null,
+          "dueText": "when I'm back",
+          "quote": "Travelling this week — let me set up a call when I'm back.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "cross_sell",
+          "detail": "Client is interested in a sales dashboard to visualize portal data.",
+          "date": "2026-06-10",
+          "quote": "our CFO keeps asking if the portal data can feed into some kind of sales dashboard",
+          "confidence": "high"
+        },
+        {
+          "type": "revisit",
+          "detail": "Existing client returning for a v2 upgrade due to growth from 40 to 110 distributors.",
+          "date": "2026-06-10",
+          "quote": "We've grown from 40 to 110 distributors and it's starting to creak — mostly around order reconciliation.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-14_techsummit_debrief": {
+      "summary": "Debrief from TechSummit Mumbai confirms several new leads and highlights a duplicate entry for Meridian Healthcare, where Jay spoke to a contact already being handled by Bhavin.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "BlueOrchid Hotels (Farah) — guest review analytics, seemed serious (entered as L-1006)",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Data Engineering",
+          "quote": "AgroLink (Harpreet) — mandi price data pipelines, Dhaval spoke to him, need his notes (L-1011)",
+          "confidence": "high"
+        },
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "TravelHub (Nadia) — itinerary personalization, early stage (L-1022)",
+          "confidence": "high"
+        },
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "LoopMart (Sania) — retail analytics, asked for pricing ballpark (L-1036)",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Provide notes from conversation with AgroLink",
+          "due": null,
+          "dueText": "need his notes",
+          "quote": "AgroLink (Harpreet) — mandi price data pipelines, Dhaval spoke to him, need his notes (L-1011)",
+          "confidence": "high"
+        },
+        {
+          "who": "Karandeep",
+          "what": "Provide pricing ballpark for LoopMart",
+          "due": null,
+          "dueText": "asked for pricing ballpark",
+          "quote": "LoopMart (Sania) — retail analytics, asked for pricing ballpark (L-1036)",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Duplicate CRM entries for Meridian Healthcare (L-1003 and L-1027) due to a booth conversation where Jay did not realize Bhavin already had a proposal with the client.",
+          "date": "2026-06-14",
+          "quote": "Meridian booth conversation — SAME hospital group we already have an open deal with?? Sanjay was at the booth, talked to Jay who didn't realise Bhavin already has a proposal with him. Awkward. (Now sitting in CRM twice: L-1003 and L-1027.)",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-05-18_freshcart_referral_followup": {
+      "summary": "FreshCart is actively evaluating two other vendors and aims to make a decision by mid-July, putting the AtliQ proposal at risk of being lost if immediate action is not taken.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "We're now in conversations with two other vendors and want to decide by mid-July.",
+          "confidence": "medium"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Call Ananya to set things up",
+          "due": "2026-05-25",
+          "dueText": "early next week",
+          "quote": "I'll call you early next week to set things up.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "competitor",
+          "detail": "Client is in conversations with two other vendors.",
+          "date": "2026-06-16",
+          "quote": "We're now in conversations with two other vendors",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "Client has a hard deadline to decide by mid-July and the window is closing.",
+          "date": "2026-07-15",
+          "quote": "want to decide by mid-July... the window is closing.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-16_meridian_proposal_questions": {
+      "summary": "Dr. Sanjay Kulkarni from Meridian Healthcare has reviewed the proposal and asked two technical questions regarding HL7 ingestion and the UAT timeline, aiming to close the deal before their mid-July Q2 budget review.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "Thanks for the proposal. It looks solid overall.",
+          "confidence": "high"
+        },
+        {
+          "field": "last_contact_date",
+          "value": "2026-06-16",
+          "quote": "Date: 2026-06-16",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Answer questions regarding HL7 feed ingestion capabilities and clarify if the 14-week timeline includes UAT",
+          "due": null,
+          "dueText": "before our Q2 budget review in mid-July",
+          "quote": "Two questions from our IT director before we can move ahead: 1. Can the ingestion layer handle HL7 feeds... 2. The proposal quotes a 14-week timeline — does that include UAT...",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Deal is at risk of slipping if not closed before the client's Q2 budget review in mid-July.",
+          "date": "2026-07-15",
+          "quote": "We'd like to close this out before our Q2 budget review in mid-July.",
+          "confidence": "medium"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-03-26_finedge_compliance_docs": {
+      "summary": "FinEdge Bank has cleared the compliance review for the data engineering proposal and is ready to move to commercial discussions, with a meeting scheduled for the week of June 29, 2026.",
+      "crmUpdates": [
+        {
+          "field": "last_contact_date",
+          "value": "2026-06-19",
+          "quote": "Date: 2026-06-19",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Confirm availability for a commercial discussion meeting",
+          "due": "2026-06-29",
+          "dueText": "the week of 29 June",
+          "quote": "My assistant will find a slot the week of 29 June — please confirm your availability.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Client emphasizes urgency to avoid losing momentum on their largest data initiative of the year.",
+          "date": "2026-06-19",
+          "quote": "This is our largest data initiative this year, so let's not lose momentum.",
+          "confidence": "medium"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-18_acme_retail_monthly_reports": {
+      "summary": "Acme Retail Group is exploring automation for their monthly reporting pack and has introduced a new lead, FreshCart, for a customer portal project. AtliQ has committed to sending a scope note for the reporting automation this week.",
+      "crmUpdates": [
+        {
+          "field": "last_contact_date",
+          "value": "2026-06-19",
+          "quote": "Date: 2026-06-19",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Send a short scope note for report automation",
+          "due": "2026-06-25",
+          "dueText": "this week",
+          "quote": "we'll send you a short scope note this week",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "cross_sell",
+          "detail": "Client wants to automate the manual assembly of the board reporting pack from existing dashboards.",
+          "date": "2026-06-18",
+          "quote": "Our analysts still spend the first week of every month manually assembling the board reporting pack from the dashboards. Is that something you folks could automate?",
+          "confidence": "high"
+        },
+        {
+          "type": "cross_sell",
+          "detail": "Client mentions their ops team struggles with inventory forecasting for seasonal SKUs, potentially indicating a need for AI/ML or Data Engineering services.",
+          "date": "2026-06-18",
+          "quote": "our ops team has been struggling with inventory forecasting for seasonal SKUs. We keep either overstocking or running out. Not sure if that's your area, but thought I'd mention it.",
+          "confidence": "medium"
+        },
+        {
+          "type": "new_lead",
+          "detail": "Priya Raman introduced Ananya Desai at FreshCart, who is looking for someone to build a customer portal.",
+          "date": "2026-06-18",
+          "quote": "I passed your details to Ananya Desai at FreshCart — she's looking for someone to build a customer portal.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-19_blueorchid_call": {
+      "summary": "Jay spoke with Farah from BlueOrchid Hotels about guest review analytics across 12 properties. Farah is interested in sentiment dashboards and alerts, and asked for a pilot cost estimate.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "BlueOrchid — call w/ Farah 19/6 (Jay)",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Power BI Dashboards",
+          "quote": "wants sentiment + theme dashboards, maybe alerts for bad reviews",
+          "confidence": "medium"
+        },
+        {
+          "field": "last_contact_date",
+          "value": "2026-06-19",
+          "quote": "call w/ Farah 19/6",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Send an approach note to Farah",
+          "due": null,
+          "dueText": "need her email first, it's on her card. which card. which drawer",
+          "quote": "said I'd send an approach note — need her email first, it's on her card. which card. which drawer",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "new_lead",
+          "detail": "BlueOrchid Hotels is a new lead with 12 properties looking for guest review analytics.",
+          "date": "2026-06-19",
+          "quote": "guest review analytics — 12 properties, reviews scattered across TripAdvisor / Booking / Google",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-20_lumino_fitness_case_study": {
+      "summary": "Carlos Mendes from Lumino Fitness reached out after meeting Jay at TechSummit Mumbai, requesting a case study on member-churn prediction and indicating they are currently budgeting for next quarter.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "good meeting you at TechSummit Mumbai last week",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "AI/ML Solutions",
+          "quote": "case study about the member-churn prediction work",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_name",
+          "value": "Carlos Mendes",
+          "quote": "Carlos Mendes <carlos@luminofitness.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_email",
+          "value": "carlos@luminofitness.com",
+          "quote": "Carlos Mendes <carlos@luminofitness.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Jay",
+          "quote": "To: Jay <jay@atliq.com>",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Send case study about member-churn prediction work for a fitness chain",
+          "due": null,
+          "dueText": "not specified",
+          "quote": "You mentioned you'd send over the case study about the member-churn prediction work you did for a fitness chain.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "new_lead",
+          "detail": "Lumino Fitness is a new lead introduced via a conference meeting.",
+          "date": "2026-06-20",
+          "quote": "good meeting you at TechSummit Mumbai last week",
+          "confidence": "high"
+        },
+        {
+          "type": "renewal",
+          "detail": "Client is actively budgeting for next quarter, indicating a potential upcoming purchase window.",
+          "date": "2026-06-20",
+          "quote": "we're budgeting for next quarter right now",
+          "confidence": "medium"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-24_acme_quarterly_review": {
+      "summary": "Acme Retail Group is a strong, active client with high dashboard adoption and a clear new need for report automation. The meeting also surfaced a new forecasting opportunity and a warm referral to FreshCart, with a support contract renewal due in September.",
+      "crmUpdates": [
+        {
+          "field": "last_contact_date",
+          "value": "2026-06-24",
+          "quote": "Date: 2026-06-24",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Ayush",
+          "what": "Send scope note for report automation",
+          "due": "2026-06-27",
+          "dueText": "by 27 Jun",
+          "quote": "Scope note for report automation — Ayush — by 27 Jun",
+          "confidence": "high"
+        },
+        {
+          "who": "Dhaval",
+          "what": "Call Ananya @ FreshCart",
+          "due": null,
+          "dueText": "",
+          "quote": "Call Ananya @ FreshCart — ?",
+          "confidence": "medium"
+        },
+        {
+          "who": "Dhaval",
+          "what": "Intro convo re: forecasting with Acme COO",
+          "due": null,
+          "dueText": "",
+          "quote": "Intro convo re: forecasting with Acme COO — ?",
+          "confidence": "medium"
+        }
+      ],
+      "signals": [
+        {
+          "type": "cross_sell",
+          "detail": "Client needs automation for monthly board pack assembly, currently taking ~5 person-days/month manually.",
+          "date": "2026-06-24",
+          "quote": "Pain point raised (again): monthly board pack is assembled manually from dashboard screenshots. ~5 person-days/month. Priya asked directly if we can automate.",
+          "confidence": "high"
+        },
+        {
+          "type": "new_lead",
+          "detail": "Acme's analytics lead Vikas mentioned ops struggles with seasonal inventory forecasting, suggesting a separate conversation with their COO.",
+          "date": "2026-06-24",
+          "quote": "Vikas mentioned ops side struggles with seasonal inventory forecasting — overstock on festive SKUs, stockouts on staples. Worth a separate conversation with their COO.",
+          "confidence": "high"
+        },
+        {
+          "type": "new_lead",
+          "detail": "Priya referred AtliQ to FreshCart (Ananya Desai), who is expecting a call.",
+          "date": "2026-06-24",
+          "quote": "Priya has referred us to FreshCart (Ananya Desai) — she confirmed Ananya is expecting our call.",
+          "confidence": "high"
+        },
+        {
+          "type": "renewal",
+          "detail": "Support contract renewal is due in September, and the client signalled no issues.",
+          "date": "2026-09-01",
+          "quote": "Renewal of support contract due September. Priya signalled no issues.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-25_novapharma_stakeholders": {
+      "summary": "NovaPharma is moving forward with the AI/ML document processing project, with the science team convinced by the demo. The deal is currently in the IT security and procurement clearance phase, with a hard deadline of end of July to fit within the current budget.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "the small extraction demo you showed alongside the proposal did a lot of the convincing",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Provide data-handling and hosting details to Rajesh Patel and send three healthcare/pharma references to Emma Stone",
+          "quote": "Rajesh needs your data-handling and hosting details before we proceed... Emma will need three references from healthcare/pharma clients.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Provide data-handling and hosting details to Rajesh Patel",
+          "due": "2026-07-31",
+          "dueText": "end of July",
+          "quote": "Rajesh needs your data-handling and hosting details before we proceed",
+          "confidence": "high"
+        },
+        {
+          "who": "Bhavin",
+          "what": "Send three references from healthcare/pharma clients to Emma Stone",
+          "due": "2026-07-31",
+          "dueText": "end of July",
+          "quote": "Emma will need three references from healthcare/pharma clients.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Deal must be closed by end of July to fit within the current year's budget.",
+          "date": "2026-07-31",
+          "quote": "Realistically we need everything wrapped by end of July to make this year's budget.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-23_kaveri_vendor_failed": {
+      "summary": "Kaveri Textiles is reopening a previously lost deal because their chosen local vendor failed to deliver. A demo and re-quote are scheduled for July 8, 2026.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "8 July confirmed. Bring the template.",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Demo and re-quote on 2026-07-08",
+          "quote": "let's do a fresh demo and re-quote rather than dust off the old number. Pranav (copied) can show you our current textile dashboard template. Would 8 July work?",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Pranav",
+          "what": "Show current textile dashboard template",
+          "due": "2026-07-08",
+          "dueText": "8 July",
+          "quote": "Pranav (copied) can show you our current textile dashboard template. Would 8 July work?",
+          "confidence": "high"
+        },
+        {
+          "who": "Jay",
+          "what": "Provide a fresh quote",
+          "due": null,
+          "dueText": "re-quote",
+          "quote": "let's do a fresh demo and re-quote rather than dust off the old number",
+          "confidence": "medium"
+        }
+      ],
+      "signals": [
+        {
+          "type": "revisit",
+          "detail": "Client is returning after a lost deal because the local vendor they chose over AtliQ failed to deliver and stopped responding.",
+          "date": "2026-06-23",
+          "quote": "the local vendor we chose over AtliQ last year has not delivered. Six months in, the dashboards still don't reconcile with our tally sheets and he has stopped responding.",
+          "confidence": "high"
+        },
+        {
+          "type": "competitor",
+          "detail": "Client explicitly mentions the local vendor they previously chose over AtliQ, citing price as the reason.",
+          "date": "2026-06-23",
+          "quote": "Lesson learnt about buying on price.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-24_globalmart_pricing": {
+      "summary": "GlobalMart's procurement team found the proposal scope correct but the price 20% too high, offering to either trim the analytics module to Phase 2 or reduce the price. Karandeep committed to discussing phasing options with the team and responding by Friday.",
+      "crmUpdates": [
+        {
+          "field": "last_contact_date",
+          "value": "2026-06-26",
+          "quote": "Date: 2026-06-26",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Discuss phasing options with team and respond to Neha by Friday",
+          "quote": "let me discuss with the team and come back on the phasing. (Will respond by Friday.)",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Discuss phasing options with the team and respond to Neha regarding the proposal",
+          "due": "2026-06-26",
+          "dueText": "by Friday",
+          "quote": "let me discuss with the team and come back on the phasing. (Will respond by Friday.)",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "cross_sell",
+          "detail": "Neha's colleague in supply chain asked if AtliQ does demand forecasting, indicating a potential new service need.",
+          "date": "2026-06-24",
+          "quote": "my colleague in supply chain asked whether you do demand forecasting. Do you?",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "The proposal price is 20% above what GlobalMart's procurement will clear this year, putting the deal at risk unless scope or price is adjusted.",
+          "date": "2026-06-24",
+          "quote": "the number is about 20% above what they will clear this year",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-26_loopmart_pricing_call": {
+      "summary": "LoopMart discussed pricing for retail analytics dashboards, with Sania providing a ballpark estimate of 18-22k USD for a phase-able project.",
+      "crmUpdates": [
+        {
+          "field": "est_value_usd",
+          "value": "20000",
+          "quote": "gave ballpark 18–22k for retail analytics dashboards, phase-able",
+          "confidence": "medium"
+        }
+      ],
+      "commitments": [],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-06-27_harborfinch_referral_intro": {
+      "summary": "Suresh Menon referred David Harbor of Harbor & Finch to AtliQ for help automating their manual client reporting process. David has requested a call within the next couple of weeks.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "New",
+          "quote": "meet David. David runs Harbor & Finch, a boutique advisory firm; they're evaluating options for automating their client reporting and could use your help.",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_name",
+          "value": "David Harbor",
+          "quote": "David runs Harbor & Finch, a boutique advisory firm",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_email",
+          "value": "david@harborfinch.com",
+          "quote": "From: David Harbor <david@harborfinch.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Bhavin",
+          "quote": "To: Bhavin <bhavin@atliq.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Custom Web App",
+          "quote": "they're evaluating options for automating their client reporting and could use your help",
+          "confidence": "medium"
+        },
+        {
+          "field": "next_step",
+          "value": "Schedule a call with David Harbor",
+          "quote": "Do you have time in the next couple of weeks?",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Schedule a call with David Harbor",
+          "due": "2026-07-11",
+          "dueText": "in the next couple of weeks",
+          "quote": "Do you have time in the next couple of weeks?",
+          "confidence": "medium"
+        }
+      ],
+      "signals": [
+        {
+          "type": "new_lead",
+          "detail": "Harbor & Finch Advisory is a new lead referred by Suresh Menon, looking to automate ~120 manual client reports per quarter.",
+          "date": "2026-06-27",
+          "quote": "David runs Harbor & Finch, a boutique advisory firm; they're evaluating options for automating their client reporting and could use your help.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-29_pixelworks_partnership": {
+      "summary": "Tara Bose from PixelWorks Agency reached out to Jay regarding a white-label partnership for data dashboards and AI features, indicating a potential volume of 3-4 projects per quarter.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "New",
+          "quote": "Rather than one project, we're looking for a standing partner we can white-label.",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_name",
+          "value": "Tara Bose",
+          "quote": "From: Tara Bose <tara@pixelworks.agency>",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_email",
+          "value": "tara@pixelworks.agency",
+          "quote": "From: Tara Bose <tara@pixelworks.agency>",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Jay",
+          "quote": "To: Jay <jay@atliq.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Power BI Dashboards",
+          "quote": "Our clients increasingly ask for data dashboards and AI features that we can't build in-house.",
+          "confidence": "medium"
+        }
+      ],
+      "commitments": [],
+      "signals": [
+        {
+          "type": "new_lead",
+          "detail": "PixelWorks Agency is a new 30-person design agency seeking a standing white-label partner for data and AI work.",
+          "date": "2026-06-29",
+          "quote": "we're a 30-person design agency. Our clients increasingly ask for data dashboards and AI features that we can't build in-house.",
+          "confidence": "high"
+        },
+        {
+          "type": "cross_sell",
+          "detail": "Client explicitly mentions interest in both data dashboards and AI features, suggesting potential for multiple service lines.",
+          "date": "2026-06-29",
+          "quote": "Our clients increasingly ask for data dashboards and AI features that we can't build in-house.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-29_shopswift_budget_confirmed": {
+      "summary": "ShopSwift has formally approved a $55,000 budget for the recommendation engine, removing the last blocker. Bhavin is committed to delivering a statement of work by July 15, 2026, to meet the client's procurement deadline before the quarter closes.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "What I need from you: a statement of work by 15 July so I can push it through procurement",
+          "confidence": "medium"
+        },
+        {
+          "field": "next_step",
+          "value": "Send statement of work by 2026-07-15",
+          "quote": "What I need from you: a statement of work by 15 July",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Send statement of work",
+          "due": "2026-07-15",
+          "dueText": "by 15 July",
+          "quote": "What I need from you: a statement of work by 15 July so I can push it through procurement before our finance team closes the quarter's commitments.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "If the statement of work is not delivered by July 15, the deal slips to next quarter and the budget is not guaranteed to survive.",
+          "date": "2026-07-15",
+          "quote": "If we miss that window it slips to next quarter and I can't guarantee the budget survives.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-30_finserve_intro_call": {
+      "summary": "Intro call with FinServe Capital focused on ML for credit scoring with a strong emphasis on regulatory explainability. Arjun is traveling until mid-July, so follow-up is expected after July 15.",
+      "crmUpdates": [
+        {
+          "field": "service_interest",
+          "value": "AI/ML Solutions",
+          "quote": "want ML for credit scoring on thin-file customers",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Karandeep",
+          "quote": "Notes — FinServe intro call (Karandeep)",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Ping Arjun after he returns from travel",
+          "due": "2026-07-15",
+          "dueText": "after 15th",
+          "quote": "arjun travelling first 2 wks of july, said ping him after 15th",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Regulatory explainability requirement is a major factor for the client, which may impact solution design and timeline.",
+          "date": null,
+          "quote": "regulator explainability requirement — big deal for them",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 1
+    },
+    "2026-06-15_voltenergy_competitor": {
+      "summary": "VoltEnergy is actively comparing AtliQ's Power BI proposal against a Tableau consultancy. Marcus Chen has requested a 3-year TCO comparison to present to his board, asking for it to be sent this week.",
+      "crmUpdates": [
+        {
+          "field": "last_contact_date",
+          "value": "2026-07-01",
+          "quote": "Date: 2026-07-01",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Send 3-year TCO comparison of Power BI vs Tableau",
+          "due": "2026-07-03",
+          "dueText": "this week",
+          "quote": "Can you send it this week?",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "competitor",
+          "detail": "Client is evaluating a Tableau consultancy as an alternative to AtliQ's Power BI proposal.",
+          "date": "2026-06-15",
+          "quote": "we're also evaluating a Tableau consultancy for this.",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "Deal is at risk due to active competitor evaluation and board-level scrutiny of 3-year costs.",
+          "date": "2026-07-01",
+          "quote": "board asks for 3-year numbers.",
+          "confidence": "medium"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-30_novapharma_security_questionnaire": {
+      "summary": "NovaPharma has sent a 78-question vendor security questionnaire that must be returned by July 24 to keep the procurement timeline on track. Bhavin has delegated the initial draft to Pranav, noting it gates the $80k deal.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Complete and return vendor security questionnaire by 2026-07-24",
+          "quote": "We need the completed document back by 24 July to keep the procurement timeline.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Return completed vendor security questionnaire to NovaPharma",
+          "due": "2026-07-24",
+          "dueText": "by 24 July",
+          "quote": "We need the completed document back by 24 July to keep the procurement timeline.",
+          "confidence": "high"
+        },
+        {
+          "who": "Pranav",
+          "what": "Take a first pass at the vendor security questionnaire",
+          "due": "2026-07-24",
+          "dueText": "Need it back to them by 24 July",
+          "quote": "Pranav — can you take a first pass at this? ... Need it back to them by 24 July.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "The security questionnaire is a gating item for the $80k deal; missing the July 24 deadline could slip the procurement timeline.",
+          "date": "2026-07-24",
+          "quote": "It gates the entire 80k NovaPharma deal. Need it back to them by 24 July.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-01_agrolink_budget_call": {
+      "summary": "AgroLink has confirmed a budget of $35-40k for automated mandi price data pipelines and price alerts. Dhaval is to send a proposal by July 10, before the client goes on leave on July 14.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "finally connected after techsummit (2.5 weeks!)",
+          "confidence": "high"
+        },
+        {
+          "field": "est_value_usd",
+          "value": "37500",
+          "quote": "BUDGET FINALLY REVEALED: ~35-40k approved for this FY",
+          "confidence": "medium"
+        },
+        {
+          "field": "next_step",
+          "value": "Send proposal by 2026-07-10",
+          "quote": "wants proposal before 10 July, he goes on leave 14th",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Send proposal",
+          "due": "2026-07-10",
+          "dueText": "by 10 Jul",
+          "quote": "action: proposal — Dhaval — by 10 Jul",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Client goes on leave on July 14, creating a hard deadline for proposal delivery.",
+          "date": "2026-07-14",
+          "quote": "he goes on leave 14th",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-30_datanest_renewal": {
+      "summary": "DataNest is renewing their Staff Augmentation contract (expiring end of September) and requesting a third engineer with Kafka expertise following their Series A raise. A call is scheduled for July 8 to finalize details.",
+      "crmUpdates": [
+        {
+          "field": "next_step",
+          "value": "Call on 2026-07-08 to lock renewal and discuss Kafka profile",
+          "quote": "Let's do a call Wednesday 8 July to lock the renewal and discuss the Kafka profile.",
+          "confidence": "high"
+        },
+        {
+          "field": "last_contact_date",
+          "value": "2026-07-02",
+          "quote": "Date: 2026-07-02",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Send calendar invite for the call",
+          "due": null,
+          "dueText": "implied by 'Invite coming'",
+          "quote": "Invite coming.",
+          "confidence": "high"
+        },
+        {
+          "who": "Karandeep",
+          "what": "Lock the renewal and discuss the Kafka profile on the call",
+          "due": "2026-07-08",
+          "dueText": "Wednesday 8 July",
+          "quote": "Let's do a call Wednesday 8 July to lock the renewal and discuss the Kafka profile.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "renewal",
+          "detail": "Contract runs out end of September; client wants to sort renewal early to avoid a gap.",
+          "date": "2026-09-30",
+          "quote": "Our contract runs out end of September. Can we sort the renewal early so there's no gap?",
+          "confidence": "high"
+        },
+        {
+          "type": "cross_sell",
+          "detail": "Client wants to add a third engineer strong on Kafka, same arrangement (Staff Augmentation).",
+          "date": null,
+          "quote": "We've raised a Series A and want to add a third engineer, ideally someone strong on Kafka. Same arrangement?",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-02_paytrack_phase2": {
+      "summary": "PayTrack's quarterly review confirmed the fraud model is performing well, and the client is requesting a one-pager on a new merchant-risk module to evaluate before their August planning cycle.",
+      "crmUpdates": [
+        {
+          "field": "last_contact_date",
+          "value": "2026-07-02",
+          "quote": "Date: 2026-07-02",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Send a one-pager on what a merchant-risk module would look like",
+          "due": null,
+          "dueText": "before our August planning cycle",
+          "quote": "if you sent us a one-pager on what a merchant-risk module would look like, I could circulate it before our August planning cycle",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "cross_sell",
+          "detail": "Client wants to apply fraud scoring to merchant onboarding, indicating a need for a new merchant-risk module.",
+          "date": "2026-07-02",
+          "quote": "the ops team wants the same scoring applied to merchant onboarding, not just transactions",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-02_internal_pipeline_review": {
+      "summary": "Internal pipeline review identified significant CRM data gaps, including unentered TechSummit leads and unaddressed client requests. Key risks include a missed NovaPharma security questionnaire deadline and a stalled Sunrise Foods v2 follow-up.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Sunrise Foods came back wanting a v2 three weeks ago. Still no call scheduled.",
+          "confidence": "medium"
+        },
+        {
+          "field": "owner",
+          "value": "Dhaval",
+          "quote": "Sunrise Foods came back wanting a v2 three weeks ago. Still no call scheduled. \"That one's on me.\"",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Schedule call for v2 discussion",
+          "quote": "Sunrise Foods came back wanting a v2 three weeks ago. Still no call scheduled.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Schedule a call with Sunrise Foods regarding v2",
+          "due": null,
+          "dueText": "three weeks ago (request made)",
+          "quote": "Sunrise Foods came back wanting a v2 three weeks ago. Still no call scheduled. \"That one's on me.\"",
+          "confidence": "high"
+        },
+        {
+          "who": "Jay",
+          "what": "Enter remaining TechSummit leads into CRM",
+          "due": null,
+          "dueText": "same-day (agreed in meeting)",
+          "quote": "TechSummit: ~15 business cards collected. 4 entered in CRM so far (Jay).",
+          "confidence": "medium"
+        },
+        {
+          "who": "Bhavin",
+          "what": "Complete NovaPharma security questionnaire",
+          "due": "2026-07-31",
+          "dueText": "end of July",
+          "quote": "NovaPharma security questionnaire deadline is real — end of July or we slip a year.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "NovaPharma deal at risk of slipping a year if security questionnaire is not completed by end of July.",
+          "date": "2026-07-31",
+          "quote": "NovaPharma security questionnaire deadline is real — end of July or we slip a year.",
+          "confidence": "high"
+        },
+        {
+          "type": "revisit",
+          "detail": "Sunrise Foods is waiting for a v2 discussion that has been pending for three weeks.",
+          "date": null,
+          "quote": "Sunrise Foods came back wanting a v2 three weeks ago. Still no call scheduled.",
+          "confidence": "high"
+        },
+        {
+          "type": "new_lead",
+          "detail": "Harbor & Finch was introduced by Suresh but is not yet in the CRM.",
+          "date": null,
+          "quote": "the Harbor & Finch intro from Suresh",
+          "confidence": "medium"
+        },
+        {
+          "type": "new_lead",
+          "detail": "TechSummit generated approximately 15 new leads, with only 4 currently entered in the CRM.",
+          "date": null,
+          "quote": "TechSummit: ~15 business cards collected. 4 entered in CRM so far (Jay).",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-03_ridgeline_scribble": {
+      "summary": "A new lead, Ridgeline Foods, called inquiring about a distributor ordering portal similar to the Sunrise Foods project, but no contact details were captured.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "New",
+          "quote": "ops head rang the office no.",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "Custom Web App",
+          "quote": "wants same thing, distributor ordering portal",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [],
+      "signals": [
+        {
+          "type": "new_lead",
+          "detail": "Ridgeline Foods is a new lead looking for a distributor ordering portal for ~200 distributors.",
+          "date": "2026-07-03",
+          "quote": "wants same thing, distributor ordering portal, ~200 distributors",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-03_greengrid_new_lead": {
+      "summary": "GreenGrid Solar has confirmed a 45-minute discovery call with Jay for July 9th to discuss Power BI dashboards for their solar plant performance data.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Thursday works. Sending our data landscape doc beforehand.",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "45-min discovery call on 2026-07-09",
+          "quote": "Shall we do a 45-min discovery call? I have Thursday 9 July open.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Hold 45-min discovery call",
+          "due": "2026-07-09",
+          "dueText": "Thursday 9 July",
+          "quote": "Shall we do a 45-min discovery call? I have Thursday 9 July open.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-06-21_cloudnine_rates_references": {
+      "summary": "CloudNine SaaS is actively comparing AtliQ with another vendor and aims to close the staff augmentation deal by mid-July. Karandeep has sent the rate card but is still pending on providing two client references, which Dev Malhotra is following up on.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "Dev — rate card attached.",
+          "confidence": "medium"
+        },
+        {
+          "field": "next_step",
+          "value": "Provide two client references for senior backend and DevOps profiles",
+          "quote": "References: let me check with two clients that they're happy to take a call, will revert with names in a day or two.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Send two client references for senior backend and DevOps profiles",
+          "due": null,
+          "dueText": "in a day or two",
+          "quote": "References: let me check with two clients that they're happy to take a call, will revert with names in a day or two.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "competitor",
+          "detail": "Client is comparing AtliQ with one other vendor",
+          "date": "2026-07-06",
+          "quote": "We're comparing you with one other vendor and want to close this out by mid-July.",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "Client has a deadline to close the deal by mid-July",
+          "date": "2026-07-15",
+          "quote": "want to close this out by mid-July",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-03_trustline_approved": {
+      "summary": "Trustline NBFC has approved the loan document automation project, and Dhaval is preparing to send the revised contract and schedule a call for July 9th to finalize terms.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Won",
+          "quote": "the loan document automation project is approved",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Send revised contract and hold call on 2026-07-09 to walk through terms",
+          "quote": "Revised contract will be with you this week; let's do a short call Thursday 9 July to walk through the terms together.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Dhaval",
+          "what": "Send revised contract",
+          "due": "2026-07-10",
+          "dueText": "this week",
+          "quote": "Revised contract will be with you this week",
+          "confidence": "high"
+        },
+        {
+          "who": "Dhaval",
+          "what": "Hold short call to walk through terms",
+          "due": "2026-07-09",
+          "dueText": "Thursday 9 July",
+          "quote": "let's do a short call Thursday 9 July to walk through the terms together",
+          "confidence": "high"
+        }
+      ],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-07-05_nimbus_lending_intro": {
+      "summary": "New lead Nimbus Lending introduced via PayTrack, with Rhea Sharma as the primary contact. They are seeking help with manual loan underwriting and have requested a call before their budget discussions in July.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "New",
+          "quote": "Intro: AtliQ <> Nimbus Lending",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_name",
+          "value": "Rhea Sharma",
+          "quote": "Rhea, who heads risk at Nimbus Lending",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_email",
+          "value": "rhea@nimbuslending.in",
+          "quote": "Rhea Sharma <rhea@nimbuslending.in>",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Bhavin",
+          "quote": "To: Bhavin <bhavin@atliq.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "AI/ML Solutions",
+          "quote": "They're wrestling with exactly the kind of document-heavy underwriting problem you solved for us. Rhea, Bhavin's team built our fraud detection stack",
+          "confidence": "medium"
+        },
+        {
+          "field": "next_step",
+          "value": "Schedule a call before the week of 20 July",
+          "quote": "I have budget conversations happening the week of 20 July, so a call before then would be ideal.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Schedule and conduct a call with Rhea Sharma",
+          "due": "2026-07-19",
+          "dueText": "before the week of 20 July",
+          "quote": "I have budget conversations happening the week of 20 July, so a call before then would be ideal.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "new_lead",
+          "detail": "Nimbus Lending is a new company introduced by PayTrack, processing ~4,000 loan applications a month manually.",
+          "date": "2026-07-06",
+          "quote": "we process ~4,000 loan applications a month, all manually reviewed.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-06_meridian_check": {
+      "summary": "Internal note indicates uncertainty about whether AtliQ replied to Meridian's proposal questions from June 16, 2026, and Bhavin has asked Jay to check the inbox.",
+      "crmUpdates": [
+        {
+          "field": "last_contact_date",
+          "value": "2026-06-16",
+          "quote": "Sanjay's proposal questions from 16 Jun",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Check inbox to see if a reply was sent to Sanjay's proposal questions",
+          "due": null,
+          "dueText": "implied immediate action",
+          "quote": "Bhavin asked Jay where the Meridian deal (L-1003) stands. Nobody sure if we replied to Sanjay's proposal questions from 16 Jun. Check inbox.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Potential missed follow-up on proposal questions from June 16, 2026, which could jeopardize the deal.",
+          "date": "2026-06-16",
+          "quote": "Nobody sure if we replied to Sanjay's proposal questions from 16 Jun.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-06_citywide_referral": {
+      "summary": "Rakesh Gupta from Citywide Diagnostics, referred by HealthFirst, has confirmed a discovery call with Karandeep for July 13, 2026, to discuss integrating three separate data systems.",
+      "crmUpdates": [
+        {
+          "field": "owner",
+          "value": "Karandeep",
+          "quote": "To: Karandeep <karandeep@atliq.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Monday 13th, 11am works. See you then.",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Discovery call on 2026-07-13 at 11:00",
+          "quote": "How about Monday 13 July, 11am?",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Karandeep",
+          "what": "Attend discovery call with Rakesh Gupta",
+          "due": "2026-07-13",
+          "dueText": "Monday 13 July, 11am",
+          "quote": "Monday 13th, 11am works. See you then.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [],
+      "dropped": 0
+    },
+    "2026-07-07_mirahealth_quick_summary": {
+      "summary": "Dhaval forwarded notes from a second call with MiraHealth, confirming a ~35k budget for a UK-focused AI triage assistant and flagging a need for clinical safety documentation.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Proposal Sent",
+          "quote": "They want the triage assistant scoped for UK ops first, not India. Budget ~35k confirmed verbally.",
+          "confidence": "low"
+        },
+        {
+          "field": "est_value_usd",
+          "value": "35000",
+          "quote": "Budget ~35k confirmed verbally.",
+          "confidence": "high"
+        },
+        {
+          "field": "service_interest",
+          "value": "AI/ML Solutions",
+          "quote": "They want the triage assistant scoped for UK ops first, not India.",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Dhaval",
+          "quote": "Dhaval <dhaval@atliq.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "contact_name",
+          "value": "Sophie Turner",
+          "quote": "had the second call with Sophie at MiraHealth yesterday",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Update CRM with call details",
+          "due": null,
+          "dueText": "by next week",
+          "quote": "Can you put this in the CRM? I'll forget half of it by next week.",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Client CTO is ex-NHS and requires specific clinical safety documentation, which may impact timeline or scope.",
+          "date": null,
+          "quote": "She mentioned their CTO is ex-NHS and very particular about clinical safety docs.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 2
+    },
+    "2026-07-07_internal_prioritization": {
+      "summary": "An internal triage meeting identified four active deals with urgent, unaddressed deadlines (FinEdge, NovaPharma, ShopSwift, Meridian) and one new lead (HealthFirst) with a board meeting on July 14. No formal owners were assigned, though Bhavin informally took FinEdge.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "FinEdge (L-1023, 95k) — compliance cleared 19 Jun, they asked for a commercial call, nobody confirmed.",
+          "confidence": "low"
+        },
+        {
+          "field": "next_step",
+          "value": "Confirm commercial call with client",
+          "quote": "they asked for a commercial call, nobody confirmed",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Complete security questionnaire",
+          "quote": "NovaPharma (L-1029, 80k) — security questionnaire due 24 Jul, still untouched",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Send SOW",
+          "quote": "ShopSwift (L-1017, 55k) — Elena needs SOW by 15 Jul or budget slips a quarter.",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Answer proposal questions",
+          "quote": "Meridian (L-1003) — Sanjay's proposal questions from 16 Jun still unanswered.",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Bhavin",
+          "quote": "Bhavin took FinEdge \"probably\".",
+          "confidence": "medium"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Bhavin",
+          "what": "Confirm commercial call for FinEdge",
+          "due": null,
+          "dueText": "implied urgent, no specific date",
+          "quote": "Bhavin: \"biggest deal we have and it's been sitting three weeks.\"",
+          "confidence": "medium"
+        },
+        {
+          "who": "AtliQ team",
+          "what": "Complete NovaPharma security questionnaire",
+          "due": "2026-07-24",
+          "dueText": "due 24 Jul",
+          "quote": "security questionnaire due 24 Jul, still untouched",
+          "confidence": "high"
+        },
+        {
+          "who": "AtliQ team",
+          "what": "Send SOW to ShopSwift",
+          "due": "2026-07-15",
+          "dueText": "by 15 Jul",
+          "quote": "Elena needs SOW by 15 Jul or budget slips a quarter.",
+          "confidence": "high"
+        },
+        {
+          "who": "AtliQ team",
+          "what": "Answer Meridian proposal questions",
+          "due": null,
+          "dueText": "before mid-July budget review",
+          "quote": "Sanjay's proposal questions from 16 Jun still unanswered. Their budget review is mid-July.",
+          "confidence": "medium"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "ShopSwift budget may slip a quarter if SOW is not sent by July 15",
+          "date": "2026-07-15",
+          "quote": "Elena needs SOW by 15 Jul or budget slips a quarter.",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "FinEdge deal has been stalled for three weeks despite compliance clearance",
+          "date": null,
+          "quote": "biggest deal we have and it's been sitting three weeks.",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "NovaPharma security questionnaire is untouched and due July 24",
+          "date": "2026-07-24",
+          "quote": "security questionnaire due 24 Jul, still untouched, Pranav hasn't responded to the forward.",
+          "confidence": "high"
+        },
+        {
+          "type": "risk",
+          "detail": "Meridian proposal questions unanswered ahead of mid-July budget review",
+          "date": null,
+          "quote": "Sanjay's proposal questions from 16 Jun still unanswered. Their budget review is mid-July.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-08_eduspark_website_enquiry": {
+      "summary": "Vikram Joshi from EduSpark is following up on an unanswered enquiry from June 25 regarding an AI assistant for student queries, noting a budget deadline in mid-August and identifying Prof. Meenakshi Iyer as the final decision-maker.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "I submitted an enquiry through your website on 25 June about an AI assistant for student queries and haven't heard back",
+          "confidence": "high"
+        },
+        {
+          "field": "owner",
+          "value": "Jay",
+          "quote": "To: Jay <jay@atliq.com>",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Respond to the client's follow-up email and set up a joint call with the decision-maker",
+          "due": null,
+          "dueText": "budget window closes mid-August",
+          "quote": "I submitted an enquiry through your website on 25 June about an AI assistant for student queries and haven't heard back",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Client's budget window closes mid-August, creating a hard deadline for the deal.",
+          "date": "2026-08-15",
+          "quote": "our budget window closes mid-August",
+          "confidence": "high"
+        },
+        {
+          "type": "new_lead",
+          "detail": "Prof. Meenakshi Iyer, Dean of Digital Learning, is identified as the final decision-maker.",
+          "date": null,
+          "quote": "I'm not the final decision-maker — that's Prof. Meenakshi Iyer, our Dean of Digital Learning",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-08_kaveri_demo_round2": {
+      "summary": "Kaveri Textiles is re-engaging after a previous loss, requesting a revised quote for a two-plant Power BI dashboard by July 15, 2026, with increased budget flexibility.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Subbu asked for revised quote by 15 July. Signalled budget flexibility this time — \"just make it work\".",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Send revised quote for 2-plant scope",
+          "quote": "Revised quote (2-plant scope) — Jay — by 15 Jul",
+          "confidence": "high"
+        },
+        {
+          "field": "last_contact_date",
+          "value": "2026-07-08",
+          "quote": "Date: 2026-07-08",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Send revised quote for 2-plant scope",
+          "due": "2026-07-15",
+          "dueText": "by 15 Jul",
+          "quote": "Revised quote (2-plant scope) — Jay — by 15 Jul",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "revisit",
+          "detail": "Client previously lost to a local vendor but is re-engaging with a larger scope (two plants) and budget flexibility.",
+          "date": "2026-07-08",
+          "quote": "Subbu visibly relieved vs. what the local vendor gave them... Scope grew since Nov: they've added a second unit, want both plants in one view.",
+          "confidence": "high"
+        },
+        {
+          "type": "competitor",
+          "detail": "Client is comparing AtliQ's solution against the local vendor they previously chose, expressing dissatisfaction with the local vendor's output.",
+          "date": "2026-07-08",
+          "quote": "Subbu visibly relieved vs. what the local vendor gave them.",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-07-09_greengrid_discovery": {
+      "summary": "Discovery call with GreenGrid Solar identified a need for a unified dashboard across 3 solar farms, with a Phase 1 budget of $20-25k and a proposal due by July 17.",
+      "crmUpdates": [
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "Meeting Notes — GreenGrid Solar, discovery call",
+          "confidence": "high"
+        },
+        {
+          "field": "est_value_usd",
+          "value": "22500",
+          "quote": "Budget: Aditya indicated 20–25k comfortable for phase 1.",
+          "confidence": "medium"
+        },
+        {
+          "field": "next_step",
+          "value": "Send proposal by 17 Jul",
+          "quote": "Proposal — Jay — by 17 Jul",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [
+        {
+          "who": "Jay",
+          "what": "Send proposal",
+          "due": "2026-07-17",
+          "dueText": "by 17 Jul",
+          "quote": "Proposal — Jay — by 17 Jul",
+          "confidence": "high"
+        },
+        {
+          "who": "Pranav",
+          "what": "Sanity-check SCADA API feasibility before quote",
+          "due": "2026-07-14",
+          "dueText": "by 14 Jul",
+          "quote": "Pranav to sanity-check SCADA API feasibility before quote — by 14 Jul",
+          "confidence": "high"
+        }
+      ],
+      "signals": [
+        {
+          "type": "risk",
+          "detail": "Data access is an open question due to two different SCADA vendors, one of which only provides CSV over email.",
+          "date": null,
+          "quote": "Data access is the open question — two different SCADA vendors, one has an API, other is \"CSV over email\".",
+          "confidence": "high"
+        }
+      ],
+      "dropped": 0
+    },
+    "2026-06-28_oceanfreight_timezones": {
+      "summary": "OceanFreight is a new lead interested in Data Engineering for vessel telemetry. A discovery call has been scheduled for July 14, 2026, after initial scheduling conflicts.",
+      "crmUpdates": [
+        {
+          "field": "owner",
+          "value": "Jay",
+          "quote": "From: Jay <jay@atliq.com>",
+          "confidence": "high"
+        },
+        {
+          "field": "status",
+          "value": "Contacted",
+          "quote": "14 July 8:00 CET / 11:30 IST confirmed — invite sent.",
+          "confidence": "high"
+        },
+        {
+          "field": "next_step",
+          "value": "Discovery call on 2026-07-14",
+          "quote": "14 July 8:00 CET / 11:30 IST confirmed — invite sent.",
+          "confidence": "high"
+        }
+      ],
+      "commitments": [],
+      "signals": [],
+      "dropped": 0
+    }
+  },
+  "accounts": {
+    "L-1001": "Acme Retail Group is a won client ($38,000) for Power BI Dashboards, with Phase 1 delivered in February 2026 and high adoption reported. Recent discussions in June 2026 identified new opportunities for reporting automation and forecasting, alongside a support contract renewal due in September. The account also generated a warm referral to FreshCart for a customer portal project.",
+    "L-1002": "FinServe Capital is interested in AI/ML solutions for credit scoring with a focus on regulatory explainability. An intro call was completed on June 30, but the contact is traveling until mid-July, so follow-up is expected after July 15. The estimated deal value is currently unknown.",
+    "L-1003": "Meridian Healthcare (est. $45,000) is in 'Contacted' status with Dr. Sanjay Kulkarni, who asked technical questions on June 16 to close before their mid-July budget review. It is currently unclear if AtliQ has replied to these questions, as Bhavin asked Jay to check the inbox on July 6. The account was flagged in a July 7 triage meeting as one of four urgent deals with unaddressed deadlines.",
+    "L-1004": "GlobalMart (Neha Shah) is in proposal negotiation for a $62,000 custom web app, with the last contact on May 19, 2026. Procurement has flagged the price as 20% too high and suggested either trimming the analytics module to Phase 2 or reducing the cost. Karandeep is currently reviewing phasing options to respond to their request.",
+    "L-1005": "Northwind Logistics is a won deal worth $54,000 for Data Engineering, with the pipeline live since November 2025. The client is satisfied and has requested Power BI dashboards, with Dhaval committed to sending sample concepts next week.",
+    "L-1006": "Jay met Farah Sayed from BlueOrchid Hotels at TechSummit Mumbai and followed up on a call on June 19, 2026. Farah is interested in sentiment dashboards and alerts for guest reviews across 12 properties and has requested a pilot cost estimate. The account is currently marked as New with no estimated value or next follow-up date recorded.",
+    "L-1007": "Kaveri Textiles is re-engaging after their previous local vendor failed, with a second demo completed on July 8, 2026. They are requesting a revised quote for a two-plant Power BI dashboard by July 15, 2026, and have indicated increased budget flexibility.",
+    "L-1008": "Zenlytics is seeking two data engineers with dbt and Snowflake experience starting in August. An introductory call was scheduled for June 10, 2026, but the CRM shows no record of it occurring or any subsequent follow-up. The estimated deal value and next steps are currently unknown.",
+    "L-1009": "HealthFirst Clinics is waiting on a board decision scheduled for July 14, 2026, regarding a $30,000 custom web app proposal. Karandeep sent a re-phased pricing proposal on April 22, 2026, to help secure initial approval, but no next follow-up date is currently set.",
+    "L-1010": "Vikram Joshi from EduSpark is following up on a June 25 enquiry for an AI assistant to handle student queries, noting a mid-August budget deadline. Prof. Meenakshi Iyer is identified as the final decision-maker, but the estimated deal value and assigned owner are currently unknown.",
+    "L-1011": "AgroLink has confirmed a $35-40k budget for data engineering services, specifically for automated mandi price pipelines. Dhaval is scheduled to send the proposal by July 10, before the client goes on leave on July 14.",
+    "L-1012": "UrbanNest Realty (Kunal Kapoor) is a contacted lead for a custom web app, last reached out on May 2, 2026. Jay followed up on May 4 with a demo offer, but the account has gone quiet with no estimated value or next follow-up date recorded.",
+    "L-1013": "PayTrack is a won deal worth $71,000 for AI/ML fraud detection solutions, with the initial model performing well in their recent quarterly review. The client is now requesting a one-pager on a new merchant-risk module to evaluate before their August planning cycle.",
+    "L-1014": "VoltEnergy is actively comparing our Power BI proposal against a Tableau consultancy, with contact Marcus Chen requesting a 3-year TCO comparison for his board this week. The deal is valued at $28,000 and has been in the Proposal Sent stage since May 10, with no follow-up date currently scheduled.",
+    "L-1015": "ClearPath Insurance, a previously lost Data Engineering deal worth $40,000, is re-engaging after their budget freeze lifted. The project is back on their Q3 roadmap, and the last recorded contact was in December 2025.",
+    "L-1016": "Rohit Bansal from MedTrack Labs, a new lead from a conference, is interested in lab ops dashboards and LIMS integration. He has requested an intro deck and healthcare case studies, which were to be sent this week. No estimated value or next follow-up date is currently recorded.",
+    "L-1017": "ShopSwift has approved a $55,000 budget for an AI recommendation engine, with Bhavin committed to delivering a statement of work by July 15, 2026. The last recorded contact was on June 28, 2026, and no formal next follow-up date is currently set in the CRM.",
+    "L-1018": "DataNest is a won account valued at $26,000 with two engineers currently placed. They are renewing their contract expiring in September and requesting a third engineer with Kafka expertise following their Series A raise. A call was scheduled for July 8 to finalize these details.",
+    "L-1020": "FreshCart, a referral from Priya at Acme, is actively evaluating two other vendors and aims to make a decision by mid-July. The account is currently marked as 'Contacted' with no estimated value or next follow-up date recorded, putting the proposal at risk of being lost if immediate action is not taken.",
+    "L-1021": "SteelCore Industries is currently objecting to the proposed $14-16k estimate for Power BI dashboards, citing a cheaper local freelancer quote. Jay responded by highlighting the value of data integration and offering a call to clarify the scope, but no next follow-up date has been set.",
+    "L-1022": "TravelHub is a new lead owned by Karandeep, sourced from a conference and interested in AI/ML solutions. The estimated value, last contact date, and next follow-up date are currently unknown. Notes indicate an itinerary personalization idea from TechSummit.",
+    "L-1023": "FinEdge Bank has cleared its compliance review and is ready for commercial discussions, with a meeting scheduled for the week of June 29, 2026. The deal, valued at $95,000, is informally owned by Bhavin following an internal triage meeting on July 7. No formal next follow-up date is currently recorded in the CRM.",
+    "L-1025": "CloudNine SaaS is actively comparing AtliQ with another vendor and aims to close the staff augmentation deal by mid-July. Karandeep has sent the rate card but is still pending on providing two client references, which Dev Malhotra is following up on. The estimated deal value is not specified in the record.",
+    "L-1026": "Sunrise Foods, a past client, is inquiring about a v2 upgrade for their distributor portal and a sales dashboard. Dhaval agreed to schedule a call after his current travel, though no specific date has been set.",
+    "L-1027": "Jay owns a new Data Engineering lead for Meridian Health LLC, met at TechSummit, but internal notes indicate uncertainty about whether the company's June 16 technical questions were answered. The contact, Dr. Sanjay Kulkarni, aims to close the deal before their mid-July budget review, and no estimated value or next follow-up date is currently recorded.",
+    "L-1028": "ApexAuto Parts is a new lead from cold outreach, with Ravi Shankar as the contact. Two emails regarding Power BI dashboards were sent by Jay, but there has been no response as of the latest follow-up. No estimated value, owner, or next follow-up date is currently recorded.",
+    "L-1029": "NovaPharma is moving forward with an $80,000 AI/ML document processing deal, currently in IT security and procurement clearance with a hard deadline of end of July. The deal is gated by a 78-question security questionnaire that must be returned by July 24, a task delegated to Pranav. No formal owner was assigned in the recent triage meeting, though Bhavin is the listed account owner.",
+    "L-1030": "GreenGrid Solar is a new lead interested in Power BI dashboards for three solar farms, with a Phase 1 budget of $20-25k. A discovery call was held on July 9, and a proposal is due by July 17.",
+    "L-1031": "ByteBridge is facing competitor pressure from TalentGrid, which has quoted 15% lower rates. Karandeep committed to sending case studies and a reference by Friday to justify AtliQ's value. The estimated deal value and next follow-up date are currently unknown.",
+    "L-1032": "Trustline NBFC has approved the loan document automation project following their board meeting, with the CFO requiring a shift to annual license pricing. Dhaval is preparing to send the revised contract and scheduled a call for July 9th to finalize terms, though the CRM record has not yet been updated to reflect this recent approval.",
+    "L-1034": "SmartServe Hospitality is interested in a $25,000 custom web app for banquet booking and invoicing, but the ops manager is skeptical due to past vendor issues and requires milestone-based payments. The account was last contacted on April 8, 2026, and no next follow-up date is currently scheduled.",
+    "L-1035": "Quantia Analytics lost the $60,000 AI/ML deal in September 2025 due to an ongoing acquisition. The client explicitly requested to be contacted again in Q2 2026, which is now approaching as of July 2026.",
+    "L-1036": "LoopMart is a new lead from TechSummit Mumbai, currently owned by Karandeep, with interest in Power BI Dashboards for retail analytics. A pricing call on June 26 established a ballpark estimate of 18-22k USD for a phase-able project, but no next follow-up date has been set.",
+    "L-1037": "Vertex Constructions is currently stalled because the client is out of the office until February 2026. Jay plans to reconnect in February to discuss a mobile app approach, though the CRM record lists the interest as a custom web app. No estimated value or next follow-up date is recorded.",
+    "L-1038": "MiraHealth is a contacted lead with a $35,000 estimated value for an AI/ML patient triage assistant, last contacted on July 6, 2026. The second call confirmed a UK-focused scope and a requirement for clinical safety documentation. No next follow-up date is currently scheduled.",
+    "L-1039": "Citywide Diagnostics is a new lead referred by HealthFirst, with Rakesh Gupta as the contact. A discovery call is scheduled for July 13, 2026, to discuss integrating three separate data systems. The estimated deal value and account owner are currently unknown.",
+    "L-1040": "GlobalMart is a new lead interested in Power BI Dashboards, with a demo on May 19 that received positive feedback. The procurement team recently rejected the proposal as 20% too high, offering to either trim the analytics module to Phase 2 or reduce the price. Karandeep committed to discussing phasing options and responding by Friday, though no specific date is recorded for this follow-up.",
+    "L-1033": "OceanFreight is a new lead interested in Data Engineering for vessel telemetry, with a discovery call scheduled for July 14, 2026. The estimated value, owner, and last contact date are currently unknown. Scheduling has been complicated by timezone differences with the contact in Norway."
+  }
+}

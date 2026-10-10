@@ -4,6 +4,8 @@ Capstone 1 · AtliQ Sales & CRM Assistant · Step 5
 
 **Live app:** https://atliq-sales-memory-blond.vercel.app/
 
+**Demo video (about 5 min):** https://www.loom.com/share/31ddd6444b144675bfe1d92d92798a95
+
 AtliQ's founders sell on the move. Client context sits in emails, meeting notes and calls, and the CRM (Kaizen) falls ~15 days behind, so follow-ups slip and cross-sells and revisits are forgotten. This assistant reads what already exists and turns it into **suggested CRM updates, reminders and a daily priority list**. The AI only suggests; a person checks everything, and nothing is ever sent to clients.
 
 The CRM export (CSV) is treated as **what the CRM says**; the emails and meeting notes are **what actually happened**. The assistant compares the two and shows where the CRM is out of date. It is not a CRM itself.
